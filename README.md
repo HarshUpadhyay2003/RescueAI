@@ -9,16 +9,16 @@ It transforms incident images and optional map/context screenshots into **struct
 ## 🖼️ Application Preview
 
 <div align="center">
-  <img src="assets/images/Home_Page.png" width="49%" />
   <img src="assets/images/Rescue_ai.png" width="49%" />
+  <img src="assets/images/Home_Page.png" width="49%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="assets/images/Respone_1.png" width="32%" />
-  <img src="assets/images/Respone_2.png" width="32%" />
-  <img src="assets/images/Respone_3.png" width="32%" />
+  <img src="assets/images/Response_1.png" width="32%" />
+  <img src="assets/images/Response_2.png" width="32%" />
+  <img src="assets/images/Response_3.png" width="32%" />
 </div>
 
 
