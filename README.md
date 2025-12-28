@@ -1,22 +1,20 @@
-🚨 RescueAI — Multimodal Disaster Response Intelligence
+🚨 RESCUEAI
+Multimodal Disaster Response Intelligence System
 
-RescueAI is a real-time multimodal disaster response intelligence system built using Google Gemini 3 Pro in Google AI Studio.
+RescueAI is a real-time multimodal disaster response intelligence platform built using Google Gemini 3 Pro in Google AI Studio.
 It transforms incident images and optional map/context screenshots into structured, actionable emergency guidance for both first responders and civilians.
 
-The system is designed to assist decision-making during high-risk scenarios such as floods, fires, structural collapses, and urban emergencies.
+🖼️ APPLICATION PREVIEW
+<div align="center"> <img src="assets/images/app-preview.png" alt="RescueAI Application Preview" width="1200" /> </div>
 
-🖼️ Application Preview
-<div align="center">
-  <!-- Replace the src below with your application screenshot -->
-  <img width="1200" height="475" alt="RescueAI Application Preview" src="YOUR_IMAGE_URL_HERE" />
-</div>
+📌 Replace assets/images/app-preview.png with your actual screenshot file.
 
-✨ Key Features
+✨ KEY FEATURES
 🧠 Multimodal AI Scene Understanding
 
-Analyzes incident photos to detect hazards such as flood depth, fire spread, trapped vehicles, smoke patterns, structural damage, and human presence.
+Analyzes incident images to detect flooding depth, fire spread, smoke patterns, trapped vehicles, structural damage, and human presence.
 
-Uses Gemini 3 Pro’s vision + reasoning for high-stakes inference.
+Powered by Gemini 3 Pro’s vision + reasoning capabilities.
 
 📊 Structured Emergency Intelligence
 
@@ -38,7 +36,7 @@ Equipment checklist
 
 Safety precautions
 
-Step-by-step tactical response plan
+Step-by-step response plan
 
 Immediate 60-second action directive
 
@@ -54,21 +52,21 @@ Recommends the best rescue approach
 
 👥 Dual-Mode Guidance
 
-Responder Mode: Tactical plans for emergency teams
+Responder Mode: Tactical instructions for emergency teams
 
-Citizen Mode: Simplified safety instructions for civilians
+Citizen Mode: Simple safety guidance for civilians
 
 🌍 Full Multilingual Support
 
-Entire UI and AI-generated content dynamically switch to the selected language
+Entire UI and AI-generated content switch dynamically to the selected language
 
 Designed for local community deployment
 
 ⚠️ Ambiguity Handling
 
-Generates alternative scenarios with probabilities when visual information is uncertain
+Generates alternative scenarios with probabilities under uncertain visual conditions
 
-🏗️ Tech Stack
+🏗️ TECH STACK
 
 Frontend: React + TypeScript
 
@@ -82,7 +80,7 @@ Output Control: Schema-validated JSON
 
 Localization: Custom lightweight i18n system
 
-🚀 Run and Deploy Your AI Studio App
+🚀 RUN & DEPLOY WITH AI STUDIO
 
 This repository contains everything required to run RescueAI locally and deploy it via Google AI Studio.
 
@@ -90,7 +88,7 @@ This repository contains everything required to run RescueAI locally and deploy 
 
 👉 https://ai.studio/apps/drive/1o-rfeBWA_19gkOFmQQiJ-U9enE4jzPQm
 
-▶️ Run Locally
+▶️ RUN LOCALLY
 Prerequisites
 
 Node.js (v18+ recommended)
@@ -107,7 +105,7 @@ Create a .env.local file in the project root:
 GEMINI_API_KEY=your_gemini_api_key_here
 
 
-⚠️ Never commit .env.local to version control.
+⚠️ Never commit .env.local to GitHub.
 
 3️⃣ Start Development Server
 npm run dev
@@ -115,7 +113,7 @@ npm run dev
 4️⃣ Open in Browser
 http://localhost:5173
 
-🧪 How to Use
+🧪 HOW TO USE
 
 Upload an incident image (required)
 
@@ -125,19 +123,13 @@ Select preferred language
 
 Click Analyze Disaster
 
-Review:
+Review structured emergency intelligence and immediate actions
 
-Severity & urgency
+📁 PROJECT STRUCTURE
+assets/
+└── images/
+    └── app-preview.png
 
-Tactical response plans
-
-Required resources
-
-Safety precautions
-
-Immediate 60-second action
-
-📁 Project Structure
 src/
 ├── components/
 │   ├── AnalysisResult.tsx
@@ -150,37 +142,35 @@ src/
 │   │   ├── en.json
 │   │   ├── hi.json
 │   │   └── es.json
-│   └── README.md
 ├── services/
 │   └── geminiService.ts
 ├── types.ts
 ├── App.tsx
 └── main.tsx
 
-⚠️ Disclaimer
+⚠️ DISCLAIMER
 
 RescueAI is an assistive AI system.
 Always follow official emergency response protocols and human command structures.
 Do not rely solely on AI for life-critical decisions.
 
-🏆 Hackathon Context
+🏆 HACKATHON CONTEXT
 
-This project was built for Google DeepMind’s “Vibe Code with Gemini 3 Pro” Hackathon, demonstrating:
+Built for Google DeepMind’s “Vibe Code with Gemini 3 Pro” Hackathon, demonstrating:
 
 Advanced multimodal reasoning
 
-Schema-controlled AI outputs
+Structured AI outputs
 
-Real-world emergency response application
+Real-world emergency response use cases
 
 End-to-end AI product thinking
 
-📜 License
+📜 LICENSE
 
 MIT License
-Free to use, modify, and build upon.
 
-🙌 Acknowledgements
+🙌 ACKNOWLEDGEMENTS
 
 Google DeepMind & Gemini Team
 
