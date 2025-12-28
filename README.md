@@ -8,16 +8,19 @@ It transforms incident images and optional map/context screenshots into **struct
 
 ## 🖼️ Application Preview
 
-> 📌 Store your main application image at:
-> `assets/images/app-preview.png`
+<div align="center">
+  <img src="assets/images/Home_Page.png" width="49%" />
+  <img src="assets/images/Rescue_ai.png" width="49%" />
+</div>
+
+<br/>
 
 <div align="center">
-  <img 
-    src="assets/images/app-preview.png" 
-    alt="RescueAI Application Preview" 
-    width="1200"
-  />
+  <img src="assets/images/Respone_1.png" width="32%" />
+  <img src="assets/images/Respone_2.png" width="32%" />
+  <img src="assets/images/Respone_3.png" width="32%" />
 </div>
+
 
 ---
 
@@ -72,10 +75,10 @@ When a map/context image is provided:
 
 ## 🚀 Run & Deploy with AI Studio
 
-This repository contains everything required to run **RescueAI** locally and deploy it via **Google AI Studio**.
+This repository contains everything required to run **RescueAI** locally.
 
-### 🔗 View Live App in AI Studio
-https://ai.studio/apps/drive/1o-rfeBWA_19gkOFmQQiJ-U9enE4jzPQm
+### 🔗 View Live App
+https://aistudio.google.com/apps/drive/1o-rfeBWA_19gkOFmQQiJ-U9enE4jzPQm?showAssistant=true&resourceKey=&showPreview=true&fullscreenApplet=true
 
 ---
 
