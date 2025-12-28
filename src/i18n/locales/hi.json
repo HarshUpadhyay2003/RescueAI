@@ -1,0 +1,57 @@
+{
+  "header": {
+    "title": "बचाव",
+    "subtitle": "सिस्टम v1.0"
+  },
+  "upload": {
+    "incident_label": "घटना विश्लेषण",
+    "incident_desc": "तत्काल एआई मूल्यांकन के लिए घटनास्थल से दृश्य अपलोड करें।",
+    "photo_label": "घटना की तस्वीर",
+    "photo_required": "अनिवार्य",
+    "photo_change": "बदलने के लिए क्लिक करें",
+    "map_label": "नक्शा / संदर्भ",
+    "map_optional": "वैकल्पिक",
+    "map_change": "बदलने के लिए क्लिक करें",
+    "button_analyze": "आपदा का विश्लेषण करें",
+    "button_analyzing": "स्थिति का विश्लेषण हो रहा है...",
+    "disclaimer": "अस्वीकरण: RescueAI एक सहायक उपकरण है। हमेशा आधिकारिक प्रोटोकॉल का पालन करें। जीवन-महत्वपूर्ण निर्णयों के लिए केवल एआई पर निर्भर न रहें।"
+  },
+  "action": {
+    "new_analysis": "नया विश्लेषण",
+    "translate_field": "अनुवाद करें"
+  },
+  "result": {
+    "risk_label": "जोखिम:",
+    "severity_score": "गंभीरता स्कोर",
+    "rationale": "तर्क",
+    "visual_features": "एआई दृश्य विशेषताएं",
+    "no_features": "कोई विशेषताएं नहीं",
+    "comm_summary": "संचार सारांश",
+    "mode_responder": "बचावकर्मी मोड",
+    "mode_citizen": "नागरिक मोड",
+    "key_observations": "मुख्य अवलोकन",
+    "required_resources": "आवश्यक संसाधन",
+    "equipment_checklist": "उपकरण सूची",
+    "safety_precautions": "सुरक्षा सावधानियां",
+    "tactical_plan": "सामरिक प्रतिक्रिया योजना",
+    "safety_instructions": "नागरिक सुरक्षा निर्देश",
+    "no_plan": "कोई योजना उपलब्ध नहीं।",
+    "map_analysis": "मानचित्र विश्लेषण और नेविगेशन",
+    "safe_zones": "सुरक्षित क्षेत्र",
+    "blocked_routes": "अवरुद्ध मार्ग",
+    "rec_approach": "अनुशंसित दृष्टिकोण",
+    "scenarios": "अस्पष्टता परिदृश्य",
+    "probability": "संभावना",
+    "next_step": "अगला कदम:",
+    "immediate_action": "तत्काल कार्रवाई (अगले 60s)",
+    "in_english_badge": "EN"
+  },
+  "error": {
+    "upload_required": "कृपया कम से कम एक घटना की छवि अपलोड करें।",
+    "generic": "आपदा का विश्लेषण करने में विफल। कृपया पुन: प्रयास करें।"
+  },
+  "loading": {
+    "assessing": "खतरों का आकलन",
+    "processing": "दृश्य डेटा संसाधित किया जा रहा है..."
+  }
+}

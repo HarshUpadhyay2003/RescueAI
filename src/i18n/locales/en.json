@@ -1,0 +1,57 @@
+{
+  "header": {
+    "title": "RESCUE",
+    "subtitle": "SYSTEM v1.0"
+  },
+  "upload": {
+    "incident_label": "Incident Analysis",
+    "incident_desc": "Upload visuals from the scene for immediate AI assessment.",
+    "photo_label": "Incident Photo",
+    "photo_required": "Required",
+    "photo_change": "Click to change",
+    "map_label": "Map / Context",
+    "map_optional": "Optional",
+    "map_change": "Click to change",
+    "button_analyze": "ANALYZE DISASTER",
+    "button_analyzing": "ANALYZING SITUATION...",
+    "disclaimer": "Disclaimer: RescueAI is an assistive tool. Always follow official protocols and chain of command. Do not rely solely on AI for life-critical decisions."
+  },
+  "action": {
+    "new_analysis": "New Analysis",
+    "translate_field": "Translate"
+  },
+  "result": {
+    "risk_label": "Risk:",
+    "severity_score": "Severity Score",
+    "rationale": "RATIONALE",
+    "visual_features": "AI Visual Feature Map",
+    "no_features": "No features detected",
+    "comm_summary": "Comm Summary",
+    "mode_responder": "Responder Mode",
+    "mode_citizen": "Citizen Mode",
+    "key_observations": "Key Observations",
+    "required_resources": "Required Resources",
+    "equipment_checklist": "Equipment Checklist",
+    "safety_precautions": "Safety Precautions",
+    "tactical_plan": "Tactical Response Plan",
+    "safety_instructions": "Civilian Safety Instructions",
+    "no_plan": "No plan available.",
+    "map_analysis": "Map Analysis & Navigation",
+    "safe_zones": "Safe Zones",
+    "blocked_routes": "Blocked Routes",
+    "rec_approach": "Recommended Approach",
+    "scenarios": "Ambiguity Scenarios",
+    "probability": "Probability",
+    "next_step": "Next Step:",
+    "immediate_action": "Immediate Action (Next 60s)",
+    "in_english_badge": "EN"
+  },
+  "error": {
+    "upload_required": "Please upload at least one incident image.",
+    "generic": "Failed to analyze the disaster. Please try again."
+  },
+  "loading": {
+    "assessing": "ASSESSING THREATS",
+    "processing": "Processing visual data..."
+  }
+}

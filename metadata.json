@@ -1,0 +1,7 @@
+{
+  "name": "RescueAI - Disaster Response",
+  "description": "An expert multimodal Disaster Response Assistant for emergency teams. Analyzes incident images to produce actionable response plans.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

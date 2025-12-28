@@ -1,0 +1,57 @@
+{
+  "header": {
+    "title": "RESCUE",
+    "subtitle": "SISTEMA v1.0"
+  },
+  "upload": {
+    "incident_label": "Análisis de Incidentes",
+    "incident_desc": "Suba imágenes de la escena para una evaluación inmediata por IA.",
+    "photo_label": "Foto del Incidente",
+    "photo_required": "Obligatorio",
+    "photo_change": "Clic para cambiar",
+    "map_label": "Mapa / Contexto",
+    "map_optional": "Opcional",
+    "map_change": "Clic para cambiar",
+    "button_analyze": "ANALIZAR DESASTRE",
+    "button_analyzing": "ANALIZANDO SITUACIÓN...",
+    "disclaimer": "Aviso: RescueAI es una herramienta de asistencia. Siga siempre los protocolos oficiales. No confíe únicamente en la IA para decisiones críticas."
+  },
+  "action": {
+    "new_analysis": "Nuevo Análisis",
+    "translate_field": "Traducir"
+  },
+  "result": {
+    "risk_label": "Riesgo:",
+    "severity_score": "Puntuación de Gravedad",
+    "rationale": "JUSTIFICACIÓN",
+    "visual_features": "Mapa Visual IA",
+    "no_features": "Sin características",
+    "comm_summary": "Resumen de Com.",
+    "mode_responder": "Modo Rescatista",
+    "mode_citizen": "Modo Ciudadano",
+    "key_observations": "Observaciones Clave",
+    "required_resources": "Recursos Requeridos",
+    "equipment_checklist": "Lista de Equipo",
+    "safety_precautions": "Precauciones de Seguridad",
+    "tactical_plan": "Plan Táctico",
+    "safety_instructions": "Instrucciones Civiles",
+    "no_plan": "No disponible.",
+    "map_analysis": "Análisis de Mapa y Navegación",
+    "safe_zones": "Zonas Seguras",
+    "blocked_routes": "Rutas Bloqueadas",
+    "rec_approach": "Enfoque Recomendado",
+    "scenarios": "Escenarios de Ambigüedad",
+    "probability": "Probabilidad",
+    "next_step": "Siguiente paso:",
+    "immediate_action": "Acción Inmediata (60s)",
+    "in_english_badge": "EN"
+  },
+  "error": {
+    "upload_required": "Por favor suba al menos una imagen del incidente.",
+    "generic": "Fallo al analizar el desastre. Intente de nuevo."
+  },
+  "loading": {
+    "assessing": "EVALUANDO AMENAZAS",
+    "processing": "Procesando datos visuales..."
+  }
+}
